@@ -4,7 +4,6 @@
 }
 
 .content {
-
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   max-width: 700px;
@@ -13,114 +12,33 @@
   color: #454545;
 }
 
-.news {
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  padding-top: 20px;
-  font-family: 'Roboto', sans-serif;
-  padding: 1px 8px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
-}
-
-.footer {
-
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  padding-top: 20px;
-  font-family: 'Roboto', sans-serif;
-  padding: 1px 8px;
+.container.footer {
+  font-weight: normal;
   background-color: black;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
 }
 
 .location {
   font-size: 1em;
 }
 
-.beer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .header {
   font-size: 1.5em;
   font-weight: 700;
   margin-left: 5px;
+  padding-bottom: 15px;
 }
 
 .survey {
   padding-top: 20px;
 }
 
-.xur {
+.container {
   font-weight: 700;
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 15px;
+  margin: 15px 5px 15px 5px;
   padding: 1px 8px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
   border-radius: 2px; /* 2px rounded corners */
-}
-
-.hotline {
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 1px 8px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
-}
-
-.guides {
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 1px 8px;
-  margin-top: 15px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
-}
-
-.inventory {
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 1px 8px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
-}
-
-.spider {
-  font-weight: 700;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 1px 8px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 2px; /* 2px rounded corners */
 }

@@ -9,7 +9,5 @@ fetch('data.json').then((response) => {
         data.spiderinventory.forEach((s, i) => {
             document.getElementById('spiderinv' + (i + 1)).innerText = s;
         })
-
-        console.log(data);
     })
 })
