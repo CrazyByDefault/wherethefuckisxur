@@ -88,6 +88,7 @@
     letter-spacing:1px;
     font-weight:600;
     border-right:1px solid #5f6f72;
+    line-height:1.5em;
   }
 
   .main-menu li:first-child {
@@ -112,6 +113,7 @@
     color:#333;
     text-transform:uppercase;
     letter-spacing:1px;
+    line-height:1em;
   }
 
   h1 {
@@ -298,7 +300,11 @@
 
   .content {
     padding-top: 20px;
-}
+  }
+    
+  .container {
+    padding:10px 30px 30px;
+  }
 
   }
 
