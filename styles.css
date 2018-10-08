@@ -311,6 +311,10 @@
     font-size:1.7em;
     margin:0px;
   }
+    
+  ul {
+    -webkit-padding-start: 0px!important;
+  }
 
   }
 
