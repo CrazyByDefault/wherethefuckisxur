@@ -50,7 +50,7 @@
   .logo {
     width:50%;
     height:250px;
-    background:url('wtfix.svg');
+    background:url('wtfix.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -301,17 +301,17 @@
   .content {
     padding-top: 20px;
   }
-    
+
   .container {
     padding:10px 30px 30px;
   }
-    
+
   .hotline h4 {
     text-align:center;
     font-size:1.7em;
     margin:0px;
   }
-    
+
   ul {
     -webkit-padding-start: 0px!important;
   }
