@@ -369,7 +369,11 @@
 
   .mara-certificate {
     width:100%;
-    margin:10px 0;
+    margin:5px 0;
+  }
+
+  .fun-shit h5 {
+    line-height:1.3em;
   }
 
   /* * * * * MEDIA QUERIES * * * * */
