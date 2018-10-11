@@ -45,6 +45,10 @@
     color:#f4b400;
   }
 
+  .center {
+    text-align:center;
+  }
+
   /* * * * * HOME LAYOUT STYLES * * * * * */
 
   #xur {
@@ -63,7 +67,7 @@
     border:1px solid #5f6f72;
     padding:20px 30px;
     background:#fff;
-    text-align:center;
+    text-align:left;
   }
 
   .white-box {
@@ -103,6 +107,8 @@
   .spider-home ul, .banshee ul {
     list-style:none;
     font-size:1.2em;
+    margin-left:0px;
+    padding-left:0px;
   }
 
   .guides {
@@ -268,6 +274,8 @@
   .xur-inventory ul, .spider ul {
     list-style:none;
     font-size:1.2em;
+    margin-left:0px;
+    padding-left:0px;
   }
 
   .hotline h3 {
@@ -410,9 +418,9 @@
     margin:0px;
   }
 
-  ul {
+  /*ul {
     -webkit-padding-start: 0px!important;
-  }
+  }*/
 
   #xur {
     width:100%;
