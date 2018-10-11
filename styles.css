@@ -67,6 +67,10 @@
     border:1px solid #5f6f72;
     padding:20px 30px;
     background:#fff;
+    text-align:center;
+  }
+
+  .spider-home ul, .banshee ul {
     text-align:left;
   }
 
