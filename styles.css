@@ -74,6 +74,10 @@
     text-align:left;
   }
 
+  .spider-home li, .banshee li {
+    margin-bottom:10px;
+  }
+
   .white-box {
     margin:30px 0;
     border:1px solid #5f6f72;
@@ -110,7 +114,6 @@
 
   .spider-home ul, .banshee ul {
     list-style:none;
-    font-size:1.2em;
     margin-left:0px;
     padding-left:0px;
   }
@@ -337,6 +340,13 @@
     line-height:1em;
   }
 
+  .material {
+    margin:0px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.2em;
+    color: #5f6f72;
+  }
 
   /* * * * * LOST SECTOR STYLES * * * * * */
 
@@ -391,6 +401,7 @@
 
   .fun-shit h5 {
     line-height:1.3em;
+    font-size:1em;
   }
 
   /* * * * * MEDIA QUERIES * * * * */
