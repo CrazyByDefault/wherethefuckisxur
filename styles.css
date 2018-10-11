@@ -233,7 +233,7 @@
     color:#5f6f72;
   }
 
-  .xur-flavor-text h2, .guides h4, .news h5 {
+  .xur-flavor-text h2, .guides h4, .news h5, .underline-header {
     color:#333;
     margin:0px;
     padding-bottom:10px;
@@ -368,7 +368,6 @@
   /* * * * * FUN SHIT STYLES * * * * */
 
   .mara-certificate {
-    margin-top:10px;
     width:100%;
   }
 
