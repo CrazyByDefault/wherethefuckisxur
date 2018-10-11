@@ -31,7 +31,7 @@
   }
 
   .container {
-    max-width: 700px;
+    max-width: 1024px;
     margin: 0 auto;
     padding:10px 0 30px;
   }
@@ -45,12 +45,80 @@
     color:#f4b400;
   }
 
+  /* * * * * HOME LAYOUT STYLES * * * * * */
+
+  #xur {
+    width:60%;
+    display:inline-grid;
+  }
+
+  .not-xur {
+    width:35%;
+    display:inline-grid;
+    padding-left:4%;
+  }
+
+  .spider-home, .banshee {
+    margin-top:30px;
+    border:1px solid #5f6f72;
+    padding:20px 30px;
+    background:#fff;
+    text-align:center;
+  }
+
+  .white-box {
+    margin:30px 0;
+    border:1px solid #5f6f72;
+    padding:20px;
+    background:#fff;
+    text-align:center;
+  }
+
+  .box-subhead {
+    text-align:center;
+    font-size:1.5em;
+    margin:0px;
+    font-weight:initial;
+    text-transform:none;
+  }
+
+  .box-mainhead {
+    font-size:1.7em;
+    margin:0px;
+    color:#333;
+  }
+
+  .white-box h1 {
+    font-size:1.7em;
+    margin:0px;
+    color:#333;
+  }
+
+  .spider-home h3, .banshee h3, .weekly-challenge h2 {
+    font-size:1.7em;
+    margin:0px;
+    color:#333;
+  }
+
+  .spider-home ul, .banshee ul {
+    list-style:none;
+    font-size:1.2em;
+  }
+
+  .guides {
+    margin:40px 0 10px;
+  }
+
+  .guides p {
+    font-size:1.2em;
+  }
+
   /* * * * * MENU STYLES * * * * * */
 
   .logo {
     width:50%;
-    height:250px;
-    background:url('wtfix.png');
+    height:200px;
+    background:url('wtfix.svg');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -61,7 +129,7 @@
     border-top:1px solid #5f6f72;
     border-bottom:1px solid #5f6f72;
     margin-top:10px;
-    background:#fff;
+    background:#dfe4e5;
     padding:10px 0px;
   }
 
@@ -97,14 +165,29 @@
 
   /* * * * * FOOTER STYLES * * * * */
 
-  footer {
+  .footer-top {
     font-weight: 300;
     background-color: #dfe4e5;
     color: #333;
     border-top:1px solid #5f6f72;
+    padding:40px 0px;
+    text-align:center;
+  }
+
+  .footer-top p {
+    max-width:700px;
+    margin:auto;
+  }
+
+  .footer-bottom {
+    font-weight: 300;
+    background-color: #5f6f72;
+    color: #fff;
+    /*border-top:3px solid #333;*/
     font-size:.7em;
     padding:15px 0px;
     text-align:center;
+    line-height:1.3em;
   }
 
   /* * * * * HEADING STYLES * * * * */
@@ -121,7 +204,7 @@
     text-align:center;
   }
 
-  .xur h1, .spider h1 {
+  #xur h1, .spider h1 {
     margin-bottom:5px;
     text-align:center;
   }
@@ -136,7 +219,7 @@
 
   /* * * * * XUR STYLES * * * * */
 
-  .xur-location-details, .spider-flavor-text {
+  .xur-location-details, .spider-flavor-text, .hotline p {
     text-align:center;
     font-size:1.5em;
     margin:0px;
@@ -160,24 +243,20 @@
     color:#5f6f72;
   }
 
-  .inventory, .wanted {
+  .xur-inventory, .wanted {
     border:1px solid #5f6f72;
     padding:20px;
     background:#fff;
     text-align:center;
   }
 
-  .guides p {
-    font-size:1.2em;
-  }
-
-  .inventory h2 {
+  .xur-inventory h2 {
     font-size:1.7em;
     margin:0px;
     color:#333;
   }
 
-  .inventory ul, .spider ul {
+  .xur-inventory ul, .spider ul {
     list-style:none;
     font-size:1.2em;
   }
@@ -191,7 +270,7 @@
   .hotline h4 {
     text-align:center;
     font-size:2.5em;
-    margin:0px;
+    margin:10px 0;
   }
 
   .hotline h4 a {
@@ -222,13 +301,13 @@
     color:#333;
   }
 
-  .wanted-list p {
+  .wanted-list p, .a-challenges p {
     border-bottom:2px solid #c2cacc;
     margin-top:5px;
     padding-bottom:20px;
   }
 
-  .wanted-list h2 {
+  .wanted-list h2, .a-challenges h3 {
     color:#333;
     margin:0px;
     padding-bottom:0px;
@@ -283,6 +362,8 @@
     text-transform:capitalize;
   }
 
+
+
   /* * * * * MEDIA QUERIES * * * * */
 
   @media (min-width:320px) and (max-width:640px) {
@@ -316,11 +397,34 @@
     -webkit-padding-start: 0px!important;
   }
 
+  #xur {
+    width:100%;
+    display:block;
+  }
+
+  .not-xur {
+    width:100%;
+    display:block;
+    padding-left:0;
+  }
+
   }
 
   @media (min-width:641px) and (max-width:780px) {
   /* portrait tablets, portrait iPad, landscape e-readers,
   landscape 800x480 or 854x480 phones */
+
+  #xur {
+    width:100%;
+    display:block;
+  }
+
+  .not-xur {
+    width:100%;
+    display:block;
+    padding-left:0;
+  }
+
 
   }
 
