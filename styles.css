@@ -117,8 +117,8 @@
 
   .logo {
     width:50%;
-    height:250px;
-    background:url('wtfix.png');
+    height:200px;
+    background:url('wtfix.svg');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -450,7 +450,7 @@
   .container {
     padding:10px 30px 30px;
   }
-  
+
   }
 
   @media (min-width:1025px) {
