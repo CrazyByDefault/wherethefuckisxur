@@ -106,7 +106,7 @@
   }
 
   .guides {
-    margin:40px 0 10px;
+    margin:30px 0 10px;
   }
 
   .guides p {
@@ -243,6 +243,10 @@
     color:#5f6f72;
   }
 
+  .xur-flavor-text {
+    margin-bottom:10px;
+  }
+
   .xur-inventory, .wanted {
     border:1px solid #5f6f72;
     padding:20px;
@@ -362,7 +366,12 @@
     text-transform:capitalize;
   }
 
+  /* * * * * FUN SHIT STYLES * * * * */
 
+  .mara-certificate {
+    margin-top:10px;
+    width:100%;
+  }
 
   /* * * * * MEDIA QUERIES * * * * */
 
