@@ -117,8 +117,8 @@
 
   .logo {
     width:50%;
-    height:200px;
-    background:url('wtfix.svg');
+    height:250px;
+    background:url('wtfix.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
