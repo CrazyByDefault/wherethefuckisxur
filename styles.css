@@ -369,7 +369,7 @@
 
   .mara-certificate {
     width:100%;
-    margin:5px 0;
+    margin:5px 0 20px;
   }
 
   .fun-shit h5 {
@@ -437,12 +437,20 @@
     padding-left:0;
   }
 
+  .container {
+    padding:10px 30px 30px;
+  }
+
 
   }
 
   @media (min-width:961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
 
+  .container {
+    padding:10px 30px 30px;
+  }
+  
   }
 
   @media (min-width:1025px) {
