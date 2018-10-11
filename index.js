@@ -13,5 +13,11 @@ fetch('data.json').then((response) => {
                 document.getElementById('spiderinv' + (i + 1)).innerText = s;
             });
         }
+
+        if (document.getElementById('bansheeinv')) {
+            data.bansheeinventory.forEach((s, i) => {
+                document.getElementById('bansheeinv' + (i + 1)).innerText = s;
+            });    
+        }
     })
 })
