@@ -118,17 +118,23 @@
     padding-left:0px;
   }
 
-  .dailies-today {
+  .dailies-today, .banshee li {
     font-size: 1.2em;
+    text-transform:uppercase;
+    color:#5f6f72;
+    font-weight:600;
   }
 
   .dailies-and-then {
     font-size: 1em;
+    text-transform: lowercase;
+    font-style: italic;
   }
 
   .dailies-future {
     font-size: 1em;
-    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 
   .guides {
@@ -149,7 +155,7 @@
   .logo {
     width:50%;
     height:200px;
-    background:url('wtfix.png');
+    background:url('wtfix.svg');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -353,12 +359,16 @@
     line-height:1em;
   }
 
-  .material {
+  .spider-material {
     margin:0px;
     text-transform:uppercase;
     font-weight:bold;
     font-size:1.2em;
     color: #5f6f72;
+  }
+
+  .spider-cost {
+    text-transform:none;
   }
 
   /* * * * * LOST SECTOR STYLES * * * * * */
