@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 446 451" style="enable-background:new 0 0 446 451;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;opacity:0.9;fill:#DFE4E5;}
+	.st0{display:none;opacity:0.9;fill:#DFE4E5;enable-background:new    ;}
 	.st1{fill:url(#SVGID_1_);}
 	.st2{display:none;}
 	.st3{display:inline;fill:none;stroke:#000000;}
@@ -11,7 +11,7 @@
 	.st5{opacity:0.5;}
 	.st6{display:none;fill:none;stroke:#5F6F72;}
 	.st7{fill:none;stroke:#5F6F72;}
-	.st8{opacity:0.5;fill:none;stroke:#5F6F72;}
+	.st8{opacity:0.5;fill:none;stroke:#5F6F72;enable-background:new    ;}
 	.st9{fill:#FFFFFF;stroke:#5F6F72;stroke-width:2;}
 	.st10{fill:none;stroke:#5F6F72;stroke-width:2;}
 	.st11{opacity:0.8;}
@@ -21,22 +21,18 @@
 	.st15{display:inline;}
 	.st16{fill:#FFFFFF;stroke:#8E9FA5;stroke-width:0.5;}
 	.st17{fill:#F2F2F2;stroke:#8FA5A8;stroke-width:2;}
-	.st18{display:inline;fill:#545959;}
-	.st19{font-family:'GillSans-Bold';}
-	.st20{font-size:119.6547px;}
-	.st21{fill:#545959;}
-	.st22{font-size:87.7529px;}
-	.st23{letter-spacing:6;}
-	.st24{fill:#FFFFFF;stroke:#272828;stroke-width:3;}
-	.st25{font-family:'Raleway-Black';}
-	.st26{font-size:112px;}
-	.st27{font-family:'MavenPro-Black';}
-	.st28{font-size:87px;}
-	.st29{letter-spacing:4.2;}
+	.st18{fill:#FFFFFF;}
+	.st19{font-family:'Raleway-Black';}
+	.st20{font-size:114.3691px;}
+	.st21{fill:none;stroke:#272828;stroke-width:3;}
+	.st22{font-family:'MavenPro-Black';}
+	.st23{font-size:88.8403px;}
+	.st24{letter-spacing:4.2;}
 </style>
 <g id="Layer_8">
 	<circle class="st0" cx="219.5" cy="224.5" r="161.5"/>
-	<radialGradient id="SVGID_1_" cx="221.25" cy="235.5" r="169.551" gradientUnits="userSpaceOnUse">
+	
+		<radialGradient id="SVGID_1_" cx="221.25" cy="216.5" r="169.551" gradientTransform="matrix(1 0 0 -1 0 452)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#222222"/>
 		<stop  offset="0.2022" style="stop-color:#252525;stop-opacity:0.7978"/>
 		<stop  offset="0.343" style="stop-color:#2E2E2E;stop-opacity:0.657"/>
@@ -112,7 +108,7 @@
 		<line class="st7" x1="225.4" y1="225.9" x2="10.7" y2="185.6"/>
 	</g>
 </g>
-<g id="Layer_1">
+<g id="Layer_1_1_">
 	<circle class="st8" cx="219.5" cy="314.5" r="65"/>
 	<circle class="st8" cx="220.5" cy="135.5" r="65"/>
 	<path class="st9" d="M220.2,17L12.3,224.9l207.9,207.9l207.9-207.9L220.2,17z M31.2,225.9l189-189l189,189l-189,189L31.2,225.9z"/>
@@ -121,10 +117,10 @@
 	<g class="st11">
 		<line class="st10" x1="369" y1="374" x2="72" y2="77"/>
 		<line class="st10" x1="63" y1="384" x2="370" y2="77"/>
-		<line class="st9" x1="149.5" y1="147.5" x2="219.7" y2="413.2"/>
-		<line class="st9" x1="294.5" y1="145.5" x2="220.3" y2="416.2"/>
-		<line class="st9" x1="149.5" y1="303.2" x2="219.7" y2="37.5"/>
-		<line class="st9" x1="294.5" y1="307.2" x2="220.3" y2="36.5"/>
+		<line class="st10" x1="149.5" y1="147.5" x2="219.7" y2="413.2"/>
+		<line class="st10" x1="294.5" y1="145.5" x2="220.3" y2="416.2"/>
+		<line class="st10" x1="149.5" y1="303.2" x2="219.7" y2="37.5"/>
+		<line class="st10" x1="294.5" y1="307.2" x2="220.3" y2="36.5"/>
 	</g>
 	<g class="st5">
 		<line class="st7" x1="189.6" y1="7" x2="253.3" y2="440"/>
@@ -263,7 +259,7 @@
 		<g class="st15">
 			<circle class="st16" cx="277.6" cy="58.5" r="5"/>
 			<circle class="st16" cx="265.2" cy="46.8" r="5"/>
-			<circle class="st16" cx="253.8" cy="35.2" r="5"/>
+			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 178.4002 280.0844)" class="st16" cx="253.8" cy="35.2" rx="5" ry="5"/>
 			<circle class="st16" cx="241.4" cy="23.5" r="5"/>
 		</g>
 	</g>
@@ -280,12 +276,12 @@
 </g>
 <g id="Layer_4" class="st2">
 </g>
-<g id="Layer_2" class="st2">
-	<text transform="matrix(1 0 0 1 146.5508 310.8398)" class="st18 st19 st20">IX</text>
-	<text transform="matrix(1 0 0 1 101.4478 220.4717)" class="st15"><tspan x="0" y="0" class="st21 st19 st22 st23">W</tspan><tspan x="111" y="0" class="st21 st19 st22">TF</tspan></text>
-</g>
 <g id="Layer_9">
-	<text transform="matrix(1.1775 0 0 1 154.5857 310.8398)" class="st24 st25 st26">IX</text>
-	<text transform="matrix(1.1775 0 0 1 103.4182 222.4717)"><tspan x="0" y="0" class="st24 st27 st28 st29">W</tspan><tspan x="93.4" y="0" class="st24 st27 st28">TF</tspan></text>
+	<text transform="matrix(1.1775 0 0 1 153.2363 310.2852)" class="st18 st19 st20">IX</text>
+	<text transform="matrix(1.1775 0 0 1 153.2363 310.2852)" class="st21 st19 st20">IX</text>
+	<text transform="matrix(1.1775 0 0 1 100.9858 220.0479)" class="st18 st22 st23 st24">W</text>
+	<text transform="matrix(1.1775 0 0 1 100.9858 220.0479)" class="st21 st22 st23 st24">W</text>
+	<text transform="matrix(1.1775 0 0 1 213.291 220.0479)" class="st18 st22 st23">TF</text>
+	<text transform="matrix(1.1775 0 0 1 213.291 220.0479)" class="st21 st22 st23">TF</text>
 </g>
 </svg>
