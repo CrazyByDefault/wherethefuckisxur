@@ -4,13 +4,15 @@ fetch('data.json').then((response) => {
 
         if (document.getElementById('xurinv')) {
             data.xurinventory.forEach((s, i) => {
-                document.getElementById('xurinv' + (i + 1)).innerText = s;
+                let item = document.getElementById('xurinv' + (i + 1));
+                item.getElements
             });    
         }
 
         if (document.getElementById('spiderinv')) {
             data.spiderinventory.forEach((s, i) => {
-                document.getElementById('spiderinv' + (i + 1)).innerText = s;
+                document.getElementById('spidermat' + (i + 1)).innerText = s['name'];
+                document.getElementById('spidercost' + (i + 1)).innerText = s['cost'];
             });
         }
 
