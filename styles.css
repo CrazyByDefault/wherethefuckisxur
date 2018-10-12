@@ -62,7 +62,7 @@
     padding-left:4%;
   }
 
-  .spider-home, .banshee, .dailies {
+  .spider-home, .banshee, .dailies, .spider {
     margin-top:30px;
     border:1px solid #5f6f72;
     padding:20px 30px;
@@ -106,16 +106,20 @@
     color:#333;
   }
 
-  .spider-home h3, .banshee h3, .weekly-challenge h2, .dailies h3 {
+  .spider-home h3, .banshee h3, .weekly-challenge h2, .dailies h3, .spider h1 {
     font-size:1.7em;
     margin:0px;
     color:#333;
   }
 
-  .spider-home ul, .banshee ul, .dailies ul {
+  .spider-home ul, .banshee ul, .dailies ul, .spider ul {
     list-style:none;
     margin-left:0px;
     padding-left:0px;
+  }
+
+  .spider ul {
+    text-align:center;
   }
 
   .dailies-today, .banshee li {
