@@ -62,7 +62,7 @@
     padding-left:4%;
   }
 
-  .spider-home, .banshee {
+  .spider-home, .banshee, .dailies {
     margin-top:30px;
     border:1px solid #5f6f72;
     padding:20px 30px;
@@ -70,11 +70,11 @@
     text-align:center;
   }
 
-  .spider-home ul, .banshee ul {
+  .spider-home ul, .banshee ul, .dailies ul {
     text-align:left;
   }
 
-  .spider-home li, .banshee li {
+  .spider-home li, .banshee li, .dailies ul {
     margin-bottom:10px;
   }
 
@@ -106,16 +106,29 @@
     color:#333;
   }
 
-  .spider-home h3, .banshee h3, .weekly-challenge h2 {
+  .spider-home h3, .banshee h3, .weekly-challenge h2, .dailies h3 {
     font-size:1.7em;
     margin:0px;
     color:#333;
   }
 
-  .spider-home ul, .banshee ul {
+  .spider-home ul, .banshee ul, .dailies ul {
     list-style:none;
     margin-left:0px;
     padding-left:0px;
+  }
+
+  .dailies-today {
+    font-size: 1.2em;
+  }
+
+  .dailies-and-then {
+    font-size: 1em;
+  }
+
+  .dailies-future {
+    font-size: 1em;
+    font-style: italic;
   }
 
   .guides {
