@@ -149,7 +149,7 @@
   .logo {
     width:50%;
     height:200px;
-    background:url('wtfix.svg');
+    background:url('wtfix.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
@@ -425,7 +425,7 @@
   .logo {
     width:60%;
     height:150px;
-    background:url('wtfix.svg');
+    background:url('wtfix.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
