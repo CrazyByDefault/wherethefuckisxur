@@ -4,8 +4,7 @@ fetch('data.json').then((response) => {
 
         if (document.getElementById('xurinv')) {
             data.xurinventory.forEach((s, i) => {
-                let item = document.getElementById('xurinv' + (i + 1));
-                item.getElements
+                document.getElementById('xurinv' + (i + 1)).innerText = s;
             });    
         }
 
