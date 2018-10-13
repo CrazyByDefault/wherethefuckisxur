@@ -12,7 +12,6 @@
     color:#5f6f72;
   }
 
-
   /* * * * * GENERAL STYLES * * * * * */
 
   body {
@@ -49,109 +48,18 @@
     text-align:center;
   }
 
-  /* * * * * HOME LAYOUT STYLES * * * * * */
-
-  #xur {
-    width:60%;
-    display:inline-grid;
-  }
-
-  .not-xur {
-    width:35%;
-    display:inline-grid;
-    padding-left:4%;
-  }
-
-  .spider-home, .banshee, .dailies, .spider {
-    margin-top:30px;
-    border:1px solid #5f6f72;
-    padding:20px 30px;
-    background:#fff;
-    text-align:center;
-  }
-
-  .spider-home ul, .banshee ul, .dailies ul {
-    text-align:left;
-  }
-
-  .spider-home li, .banshee li, .dailies li, .spider li {
-    margin-bottom:10px;
-  }
-
-  .white-box {
-    margin:30px 0;
-    border:1px solid #5f6f72;
-    padding:20px;
-    background:#fff;
-    text-align:center;
-  }
-
-  .box-subhead {
-    text-align:center;
-    font-size:1.5em;
-    margin:0px;
-    font-weight:initial;
-    text-transform:none;
-  }
-
-  .box-mainhead {
-    font-size:1.7em;
-    margin:0px;
+  h1, h2, h3, h4, h5, h6 {
     color:#333;
-  }
-
-  .white-box h1 {
-    font-size:1.7em;
-    margin:0px;
-    color:#333;
-  }
-
-  .spider-home h3, .banshee h3, .weekly-challenge h2, .dailies h3, .spider h1 {
-    font-size:1.7em;
-    margin:0px;
-    color:#333;
-  }
-
-  .spider-home ul, .banshee ul, .dailies ul, .spider ul {
-    list-style:none;
-    margin-left:0px;
-    padding-left:0px;
-  }
-
-  .spider ul {
-    text-align:center;
-  }
-
-  .dailies-today, .banshee li {
-    font-size: 1.2em;
     text-transform:uppercase;
-    color:#5f6f72;
-    font-weight:600;
+    letter-spacing:1px;
+    line-height:1em;
   }
 
-  .dailies-and-then {
-    font-size: 1em;
-    text-transform: lowercase;
-    font-style: italic;
-  }
-
-  .dailies-future {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-
-  .guides {
-    margin:30px 0 10px;
-  }
-
-  .guides p {
-    font-size:1.2em;
-  }
-
-  .about {
-    max-width:700px;
-    margin:auto;
+  h1 {
+    font-size:2em;
+    text-align:center;
+    margin-bottom:5px;
+    text-align:center;
   }
 
   /* * * * * MENU STYLES * * * * * */
@@ -166,7 +74,7 @@
     margin: auto;
   }
 
-  nav {
+  nav .main-menu {
     border-top:1px solid #5f6f72;
     border-bottom:1px solid #5f6f72;
     margin-top:10px;
@@ -192,7 +100,7 @@
 
   .main-menu li {
     display:inline;
-    padding:0px 20px;
+    padding:0px 15px;
     text-transform:uppercase;
     letter-spacing:1px;
     font-weight:600;
@@ -224,57 +132,82 @@
     font-weight: 300;
     background-color: #5f6f72;
     color: #fff;
-    /*border-top:3px solid #333;*/
     font-size:.7em;
     padding:15px 0px;
     text-align:center;
     line-height:1.3em;
   }
 
-  /* * * * * HEADING STYLES * * * * */
+  nav .footer-menu {
+    padding:0px 0px 20px;
+  }
 
-  h1, h2, h3, h4, h5, h6 {
-    color:#333;
+  .footer-menu {
+    list-style:none;
+    padding:0px;
+    text-align:center;
+    margin:0px;
+  }
+
+  .footer-menu li {
+    display:inline;
+    padding:0px 15px;
     text-transform:uppercase;
     letter-spacing:1px;
-    line-height:1em;
+    font-weight:600;
+    border-right:1px solid #5f6f72;
+    line-height:1.5em;
   }
 
-  h1 {
-    font-size:2em;
-    text-align:center;
+  .footer-menu li:first-child {
+    border-left:1px solid #5f6f72;;
   }
 
-  #xur h1, .spider h1 {
-    margin-bottom:5px;
-    text-align:center;
+  /* * * * * LAYOUT STYLES / HOMEPAGE * * * * * */
+
+  #xur {
+    width:60%;
+    display:inline-grid;
   }
 
-  .heading {
+  .not-xur {
+    width:35%;
+    display:inline-grid;
+    padding-left:4%;
+  }
+
+  .white-box {
+    margin:0 0 30px;
     border:1px solid #5f6f72;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    padding:10px 0;
+    padding:20px;
     background:#fff;
+    text-align:center;
   }
 
-  /* * * * * XUR STYLES * * * * */
+  .white-box li {
+    margin-bottom:10px;
+    font-size: 1.2em;
+  }
 
-  .xur-location-details, .spider-flavor-text, .hotline p {
+  .white-box ul {
+    list-style:none;
+    margin-left:0px;
+    padding-left:0px;
+  }
+
+  .white-box h3, .white-box h2 {
+    font-size:1.7em;
+    margin:0px;
+    color:#333;
+  }
+
+  .white-box .flavor-text, .flavor-text {
     text-align:center;
     font-size:1.5em;
     margin:0px;
-    /*color:#5f6f72;*/
   }
 
-  .last-updated {
-    font-size:.7em;
-    text-align:right;
-    font-style:italic;
-    color:#5f6f72;
-  }
-
-  .xur-flavor-text h2, .guides h4, .news h5, .underline-header {
+  .line-header {
     color:#333;
     margin:0px;
     padding-bottom:10px;
@@ -284,87 +217,87 @@
     color:#5f6f72;
   }
 
-  .xur-flavor-text {
-    margin-bottom:10px;
+  .spider-home ul, .banshee ul, .dailies ul {
+    text-align:left;
   }
 
-  .xur-inventory, .wanted {
-    border:1px solid #5f6f72;
-    padding:20px;
-    background:#fff;
-    text-align:center;
+  .dailies-today, .banshee li {
+    font-size: 1.2em;
+    text-transform:uppercase;
+    color:#5f6f72;
+    font-weight:600;
   }
 
-  .xur-inventory h2 {
-    font-size:1.7em;
-    margin:0px;
-    color:#333;
+  .dailies-and-then {
+    font-size: 1em;
+    text-transform: lowercase;
+    font-style: italic;
   }
 
-  .xur-inventory ul, .spider ul {
-    list-style:none;
+  .dailies-future {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .guides p {
     font-size:1.2em;
-    margin-left:0px;
-    padding-left:0px;
   }
+
+  .about {
+    max-width:700px;
+    margin:auto;
+  }
+
+  .last-updated {
+    font-size:.7em;
+    text-align:right;
+    font-style:italic;
+    color:#5f6f72;
+  }
+
+  /* * * * * XUR STYLES * * * * */
+
+  .xur-inventory {
+    margin-top:10px;
+  }
+
+  .xur-location-details {
+    text-align:center;
+    font-size:1.5em;
+    margin:0px;
+  }
+
+  /* * * * * HOTLINE STYLES * * * * * */
 
   .hotline h3 {
-    text-align:center;
     font-size:2em;
-    margin-bottom:0px;
   }
 
-  .hotline h4 {
+  .hotline-number {
     text-align:center;
     font-size:2.5em;
     margin:10px 0;
   }
 
-  .hotline h4 a {
+  .hotline-number a {
     color:#248ea2;
     text-decoration:none;
   }
 
-  .hotline h4 a:hover {
+  .hotline-number a:hover {
     color:#f4b400;
     text-decoration:none;
   }
 
-  .survey {
-    padding: 20px 0;
-    margin:auto;
-  }
-
   /* * * * * SPIDER STYLES * * * * * */
 
-  .wanted-list {
-    padding-top:30px;
-  }
-
-  .wanted {
+  .spider-home, .spider, .spider-inventory {
     margin-top:30px;
   }
 
-  .wanted h2 {
-    font-size:1.7em;
-    margin:0px;
-    color:#333;
-  }
-
-  .wanted-list p, .a-challenges p {
-    border-bottom:2px solid #c2cacc;
-    margin-top:5px;
-    padding-bottom:20px;
-  }
-
-  .wanted-list h2, .a-challenges h3 {
-    color:#333;
-    margin:0px;
-    padding-bottom:0px;
-    text-transform:capitalize;
-    font-size:1.7em;
-    color:#5f6f72;
-    line-height:1em;
+  .spider-inventory ul {
+    text-align:center;
   }
 
   .spider-material {
@@ -379,48 +312,32 @@
     text-transform:none;
   }
 
-  /* * * * * LOST SECTOR STYLES * * * * * */
+  /* * * * * GUIDE STYLES * * * * * */
 
-  .lost-sector-menu {
-    list-style:none;
-    text-transform:uppercase;
-    font-weight:600;
-    text-align:center;
-    margin:5px 0 0 0;
+  .wanted-list p, .a-challenges p {
+    border-bottom:2px solid #c2cacc;
+    margin-top:5px;
+    padding-bottom:20px;
   }
 
-  .lost-sector-menu li:first-child {
-    border-left:1px solid #5f6f72;;
-  }
-
-
-  .lost-sector-menu li {
-    display:inline;
-    padding:0 20px;
-    border-right:1px solid #5f6f72;
-  }
-
-  .lostsectorlocation {
-    padding-top:30px;
-  }
-
-  .lostsectorlocation h1 {
+  .wanted-list h2, .a-challenges h3, .no-line-header {
     color:#333;
     margin:0px;
-    padding-bottom:10px;
-    border-bottom:2px solid #c2cacc;
+    padding-bottom:0px;
     text-transform:capitalize;
-    font-size:2em;
+    font-size:1.7em;
     color:#5f6f72;
-    text-align:left;
+    line-height:1em;
   }
 
-  .lostsectorlocation h1 a {
-    color:#5f6f72;
+  .weekly-challenge {
+    margin-top:30px;
   }
 
-  .lostsectorlocation h3 {
-    text-transform:capitalize;
+  .current-ascendant {
+    text-align:center;
+    font-size:1.5em;
+    margin:0px;
   }
 
   /* * * * * FUN SHIT STYLES * * * * */
