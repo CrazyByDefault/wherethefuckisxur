@@ -244,7 +244,7 @@
     font-size:1.2em;
   }
 
-  .about {
+  .about, .privacy-policy {
     max-width:700px;
     margin:auto;
   }
@@ -290,6 +290,18 @@
     text-decoration:none;
   }
 
+  /* * * * * FUN SHIT STYLES * * * * */
+
+  .mara-certificate {
+    width:100%;
+    margin:5px 0 20px;
+  }
+
+  .fun-shit h5 {
+    line-height:1.3em;
+    font-size:1em;
+  }
+
   /* * * * * SPIDER STYLES * * * * * */
 
   .spider-home, .spider, .spider-inventory {
@@ -312,15 +324,15 @@
     text-transform:none;
   }
 
-  /* * * * * GUIDE STYLES * * * * * */
+  /* * * * * GUIDE & FAQ STYLES * * * * * */
 
-  .wanted-list p, .a-challenges p {
+  .wanted-list p, .a-challenges p, .faq-list p {
     border-bottom:2px solid #c2cacc;
     margin-top:5px;
     padding-bottom:20px;
   }
 
-  .wanted-list h2, .a-challenges h3, .no-line-header {
+  .wanted-list h2, .a-challenges h3, .no-line-header, .faq-list h3 {
     color:#333;
     margin:0px;
     padding-bottom:0px;
@@ -340,16 +352,8 @@
     margin:0px;
   }
 
-  /* * * * * FUN SHIT STYLES * * * * */
-
-  .mara-certificate {
-    width:100%;
-    margin:5px 0 20px;
-  }
-
-  .fun-shit h5 {
-    line-height:1.3em;
-    font-size:1em;
+  .faq-list {
+    margin-top:20px;
   }
 
   /* * * * * MEDIA QUERIES * * * * */
@@ -385,10 +389,6 @@
     font-size:1.2em;
     margin-bottom:10px;
   }
-
-  /*ul {
-    -webkit-padding-start: 0px!important;
-  }*/
 
   #xur {
     width:100%;
