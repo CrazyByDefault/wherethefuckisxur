@@ -195,7 +195,7 @@
     padding-left:0px;
   }
 
-  .white-box h3, .white-box h2 {
+  .white-box h3, .white-box h2, .white-box h1 {
     font-size:1.7em;
     margin:0px;
     color:#333;
@@ -326,13 +326,13 @@
 
   /* * * * * GUIDE & FAQ STYLES * * * * * */
 
-  .wanted-list p, .a-challenges p, .faq-list p {
+  .wanted-list p, .a-challenges p, .faq-list p, .guide-list p {
     border-bottom:2px solid #c2cacc;
     margin-top:5px;
     padding-bottom:20px;
   }
 
-  .wanted-list h2, .a-challenges h3, .no-line-header, .faq-list h3 {
+  .wanted-list h2, .a-challenges h3, .no-line-header, .faq-list h3, .guide-list h3 {
     color:#333;
     margin:0px;
     padding-bottom:0px;
@@ -342,8 +342,8 @@
     line-height:1em;
   }
 
-  .weekly-challenge {
-    margin-top:30px;
+  #ascendant-challenge, #escalation-protocol {
+    padding-top:30px;
   }
 
   .current-ascendant {
@@ -352,11 +352,97 @@
     margin:0px;
   }
 
+  .guide-text.flavor-text {
+    border-bottom:0px;
+  }
+
   .faq-list {
     margin-top:20px;
   }
 
-  /* * * * * MEDIA QUERIES * * * * */
+  /* * * * * GUIDE MENU STYLES * * * * * */
+
+  div.guides-container {
+    margin-left: 250px;
+    padding-left: 30px;
+  }
+
+  .guide-menu {
+    margin: 30px 0 0;
+    width: 200px;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    border:1px solid #5f6f72;
+    background:#dfe4e5;
+    padding:10px 20px;
+  }
+
+  .guide-menu a {
+    display: block;
+    color: #333;
+    padding: 15px 0px;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:600;
+    border-bottom:1px solid #5f6f72;
+  }
+
+  .guide-menu a:last-child {
+    border-bottom:0px;
+  }
+
+  .guide-menu a:hover, .guide-menu a:active {
+    color:#1d9db5;
+  }
+
+  /* On screens that are less than 700px wide, make the menu into a topbar */
+  @media screen and (max-width: 700px) {
+    .guide-menu {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding:20px 0;
+    }
+
+    .guide-menu a {
+      float: left;
+      border-bottom:0px;
+      border-right:1px solid #5f6f72;
+      padding:0 15px;
+      text-align:center;
+    }
+
+    .guide-menu a:last-child {
+      border-right:0px;
+    }
+
+    div.guides-container {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+
+  /* On screens that are less than 400px, display the menu vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .guide-menu a {
+      text-align: center;
+      float: none;
+      margin:0px;
+      border-bottom:1px solid #5f6f72;
+      border-right:0px;
+      padding: 15px 0px;
+    }
+
+    .guide-menu {
+      width:100%;
+      padding:0px;
+    }
+  }
+
+
+  /* * * * * MAIN MEDIA QUERIES * * * * */
 
   @media (min-width:320px) and (max-width:640px) {
   /* smartphones, iPhone, portrait 480x320 phones */
@@ -421,7 +507,6 @@
   .container {
     padding:10px 30px 30px;
   }
-
 
   }
 
