@@ -54,10 +54,22 @@
           <div class="xur-inventory white-box">
             <h3>Xur's Inventory</h3>
             <ul id="xurinv">
-              <li id="xurinv1"></li>
-              <li id="xurinv2"></li>
-              <li id="xurinv3"></li>
-              <li id="xurinv4"></li>
+              <li>
+                <span class="item" id="xurinv1"></span><br/>
+                <span class="item-description" id="xurrolls1"></span>
+              </li>
+              <li>
+                <span class="item" id="xurinv2"></span><br/>
+                <span class="item-description" id="xurrolls2"></span>
+              </li>
+              <li>
+                <span class="item" id="xurinv3"></span><br/>
+                <span class="item-description" id="xurrolls3"></span>
+              </li>
+              <li>
+                <span class="item" id="xurinv4"></span><br/>
+                <span class="item-description" id="xurrolls4"></span>
+              </li>
             </ul>
           </div>
           <div class="hotline white-box">
@@ -79,28 +91,28 @@
               <p class="flavor-text">sellin' some planet mats</p>
               <ul id="spiderinv">
                 <li>
-                  <span class="spider-material" id="spidermat1"></span><br/>
-                  <span class="spider-cost" id="spidercost1"></span>
+                  <span class="item" id="spidermat1"></span><br/>
+                  <span class="item-description" id="spidercost1"></span>
                 </li>
                 <li>
-                  <span class="spider-material" id="spidermat2"></span><br/>
-                  <span class="spider-cost" id="spidercost2"></span>
+                  <span class="item" id="spidermat2"></span><br/>
+                  <span class="item-description" id="spidercost2"></span>
                 </li>
                 <li>
-                  <span class="spider-material" id="spidermat3"></span><br/>
-                  <span class="spider-cost" id="spidercost3"></span>
+                  <span class="item" id="spidermat3"></span><br/>
+                  <span class="item-description" id="spidercost3"></span>
                 </li>
                 <li>
-                  <span class="spider-material" id="spidermat4"></span><br/>
-                  <span class="spider-cost" id="spidercost4"></span>
+                  <span class="item" id="spidermat4"></span><br/>
+                  <span class="item-description" id="spidercost4"></span>
                 </li>
                 <li>
-                  <span class="spider-material" id="spidermat5"></span><br/>
-                  <span class="spider-cost" id="spidercost5"></span>
+                  <span class="item" id="spidermat5"></span><br/>
+                  <span class="item-description" id="spidercost5"></span>
                 </li>
                 <li>
-                  <span class="spider-material" id="spidermat6"></span><br/>
-                  <span class="spider-cost" id="spidercost6"></span>
+                  <span class="item" id="spidermat6"></span><br/>
+                  <span class="item-description" id="spidercost6"></span>
                 </li>
               </ul>
             </div>
@@ -109,8 +121,14 @@
               <h3>Banshee Mods</h3>
               <p class="flavor-text"></p>
               <ul id="bansheeinv">
-                <li id="bansheeinv1"></li>
-                <li id="bansheeinv2"></li>
+                <li>
+                  <span class="item" id="bansheeinv1"></span><br/>
+                  <span class="item-description" id="bansheedesc1"></span>
+                </li>
+                <li>
+                  <span class="item" id="bansheeinv2"></span><br/>
+                  <span class="item-description" id="bansheedesc2"></span>
+                </li>
               </ul>
             </div>
 
@@ -118,19 +136,41 @@
               <h3>Dailies</h3>
               <p class="flavor-text"></p>
               <ul id="dailies">
-                <li class="dailies-today" id="dailiesday1"></li>
+                <li class="dailies-today item" id="dailiesday1"></li>
                 <li class="dailies-and-then">And then...</li>
-                <li class="dailies-future" id="dailiesday2"></li>
-                <li class="dailies-future" id="dailiesday3"></li>
-                <li class="dailies-future" id="dailiesday4"></li>
+                <li class="dailies-future sub-item" id="dailiesday2"></li>
+                <li class="dailies-future sub-item" id="dailiesday3"></li>
+                <li class="dailies-future sub-item" id="dailiesday4"></li>
               </ul>
             </div>
 
+            <div class="nightfall white-box">
+              <h3>Weekly Nightfalls</h3>
+              <p class="flavor-text"></p>
+              <ul id="nightfalls">
+                <li>
+                  <span class="item" id="nightfall1"></span><br/>
+                  <span class="item-description" id="nightfalldrop1"></span>
+                </li>
+                <li>
+                  <span class="item" id="nightfall2"></span><br/>
+                  <span class="item-description" id="nightfalldrop2"></span>
+                </li>
+                <li>
+                  <span class="item" id="nightfall3"></span><br/>
+                  <span class="item-description" id="nightfalldrop3"></span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Commenting out guides in case we ever want to have "Featured" guides on the homepage
             <div class="guides">
-              <h4 class="line-header">Guides</h4>
+              <h4 class="line-header">Featured Guides</h4>
               <p><a href="spider.html">Where the fuck is that WANTED bounty?</a></p>
               <p><a href="guides.html">Where the fuck is that Ascendant Challenge?</a></p>
             </div>
+            -->
+
             <div class="news">
               <h5 class="line-header">What The Fuck is New?</h5>
               <p>Lots of new features this week, Jack!</p>

@@ -186,7 +186,6 @@
 
   .white-box li {
     margin-bottom:10px;
-    font-size: 1.2em;
   }
 
   .white-box ul {
@@ -217,27 +216,39 @@
     color:#5f6f72;
   }
 
-  .spider-home ul, .banshee ul, .dailies ul {
+  .white-box .item {
+    margin:0px;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:1.2em;
+    color: #5f6f72;
+  }
+
+  .item-description {
+    text-transform:none;
+    font-size:1em;
+    color:#333;
+    font-weight:400;
+  }
+
+  .sub-item {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .spider-home ul, .banshee ul, .dailies ul, .nightfall ul {
     text-align:left;
   }
 
-  .dailies-today, .banshee li {
-    font-size: 1.2em;
-    text-transform:uppercase;
-    color:#5f6f72;
-    font-weight:600;
+  .dailies-today {
+    padding-bottom:10px;
   }
 
   .dailies-and-then {
     font-size: 1em;
     text-transform: lowercase;
     font-style: italic;
-  }
-
-  .dailies-future {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 600;
   }
 
   .guides p {
@@ -312,7 +323,7 @@
     text-align:center;
   }
 
-  .spider-material {
+  /*.spider-material {
     margin:0px;
     text-transform:uppercase;
     font-weight:bold;
